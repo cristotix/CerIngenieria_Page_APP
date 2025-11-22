@@ -21,6 +21,13 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+        .logo {
+            margin-bottom: 25px; /* Espacio debajo del logo */
+        }
+        .logo img {
+            max-width: 250px; /* Tamaño máximo para el logo */
+            height: auto;
+        }
         h1 {
             color: #0056b3;
             margin-bottom: 10px;
@@ -60,8 +67,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>[Nombre de la Aplicación]</h1>
-        <p>Bienvenido/a al portal de descarga de nuestra aplicación interna. Esta versión está destinada **únicamente al personal de [Nombre de la Empresa]**.</p>
+        <div class="logo">
+            <img src="logo_cer_ingenieria.png" alt="Logo de CER Ingeniería">
+        </div>
+
+        <h1>CerIngenieriaApp - Descarga Interna</h1>
+        <p>Bienvenido/a al portal de descarga de nuestra aplicación interna. Esta versión está destinada **únicamente al personal de CER Ingeniería**.</p>
         
         <a href="[AQUÍ VA EL ENLACE DE DESCARGA DE TU ARCHIVO .APK]" class="download-btn" download>
             Descargar Aplicación (Android .APK)
